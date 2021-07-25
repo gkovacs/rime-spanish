@@ -63,6 +63,11 @@ punctuator:  # 只須定義空格一個符號
     ' ' : { commit: ' ' }
   full_shape: *punct
 
+ascii_composer:
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop
+
 key_binder:
   bindings:
     - {accept: "Control+Shift+1", select: .next, when: always}
