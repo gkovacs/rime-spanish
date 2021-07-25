@@ -1,0 +1,185 @@
+﻿# Rime dictionary
+# encoding: utf-8
+#
+# international latin by polyhedron
+#
+# 使用說明
+#   所有特殊字符以';'前導
+#   後接q - 上標；後接Q - 下標；' - 銳音符；` - 鈍音符；"雙點；. - 上單點；> - 上單點；o - 上圈。。。等
+#   ';'後直接接f - 上組合符；';'後直接接F - 下組合符；';'後直接接gr - 希臘字母；';'後p - 聲調；';'後P - 變調
+#   
+# Author:
+#  - polyhedron	<biopolyhedron@gmail.com>
+#
+# 版權歸作者所有
+#
+
+---
+name: spanish_colemak
+version: "2018.11.17"
+sort: original
+...
+
+:	P
+0	0
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8
+9	9
+'	'
+-	-
+!	!
+"	"
+(	(
+)	)
+*	*
+,	,
+.	.
+/	/
+?	?
+[	[
+]	]
+^	^
+`	`
+~	~
++	+
+<	<
+=	=
+>	>
+a	a
+A	A
+b	b
+B	B
+c	c
+C	C
+d	g
+D	G
+e	k
+E	K
+f	e
+F	E
+g	t
+G	T
+h	h
+H	H
+i	l
+I	L
+j	y
+J	Y
+k	n
+K	N
+l	u
+L	U
+m	m
+M	M
+n	j
+N	J
+o	;
+O	:
+p	r
+P	R
+q	q
+Q	Q
+r	s
+R	S
+s	d
+S	D
+t	f
+T	F
+u	i
+U	I
+v	v
+V	V
+w	w
+W	W
+x	x
+X	X
+y	o
+Y	O
+z	z
+Z	Z
+# punctuation
+;	pp
+# german letters
+ß	pb
+ẞ	pB
+ö	pd
+Ö	pD
+ü	ps
+Ü	pS
+ä	pr
+Ä	pR
+# redundant ways to enter umlaut for ease of memorization
+ö	pv;
+Ö	pv:
+ü	pvi
+Ü	pvI
+ä	pva
+Ä	pvA
+# spanish letters
+ñ	pj
+Ñ	pJ
+á	pa
+Á	pA
+é	pk
+É	pK
+í	pl
+Í	pL
+ó	p;
+Ó	p:
+ú	pi
+Ú	pI
+¿	p?
+# hungarian letters
+ő	pe
+Ő	pE
+ű	pw
+Ű	pW
+# portuguese letters
+â	pua
+Â	puA
+ã	pxa
+Ã	pxA
+à	pfa
+À	pfA
+ç	pc
+Ç	pC
+ê	puk
+Ê	puK
+ô	pu;
+Ô	pu:
+õ	px;
+Õ	px:
+# french letters
+è	pfk
+È	pfK
+ù	pfi
+Ù	pfI
+î	pul
+Î	puL
+û	pui
+Û	puI
+ë	pvk
+Ë	pvK
+ï	pvl
+Ï	pvL
+ÿ	pvo
+Ÿ	pvO
+œ	pg;
+Œ	pg:
+æ	pga
+Æ	pgA
+# extra accented letters
+ý	po
+Ý	pO
+ì	pfl
+Ì	pfL
+ò	pf;
+Ò	pf:
+ỳ	pfo
+Ỳ	pfO
