@@ -20,6 +20,12 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 拉丁, 英文 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    reset: 0
+    states: [ ．，, 。， ]
 
 engine:
   processors:
